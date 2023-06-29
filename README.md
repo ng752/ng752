@@ -11,7 +11,6 @@
 </p>
 
 ### 👨‍💻 About Me
-
 ```java
 public class Me {
     private Pronoun[] pronouns = {Pronoun.HE, Pronoun.HIM};
@@ -23,10 +22,12 @@ public class Me {
             Architecture.SOA, Architecture.CONTAINER};
 
     public Me() {
-        sleep();
-        work();
-        eat();
-        repeat();
+        while (true) {
+            sleep();
+            work();
+            eat();
+            repeat();
+        }
     }
 
     private void sleep() {
@@ -39,7 +40,7 @@ public class Me {
                 + "  with Java and other exciting technologies.");
         System.out.println("Utilizing my knowledge of " 
                 + languages.length + " programming languages," +
-                " including Java, TypeScript, HTML, CSS, and Python.");
+                " including Java, JS, TS, HTML, CSS, and PY.");
         System.out.println("Using industry-standard tools such as "
                 + tools.length + " to streamline development processes," +
                 " including Maven, Docker, Bitbucket, IntelliJ, PyCharm, Git,"
@@ -64,16 +65,17 @@ public class Me {
     }
 }
 ```
-💡 More About Me
+
+### 💡 More About Me
 
 Hello! I'm Niklas, a passionate software developer and apprentice in the exciting world of technology. With a focus on Java, I thrive in building robust and efficient software solutions. I love diving into new technologies and frameworks, constantly expanding my knowledge and honing my skills.
 
-During my scholar apprenticeship at CBS, I have gained hands-on experience in software development, web development, and database management. I enjoy the challenges that come with creating responsive web applications using modern tools and frameworks such as Angular and React. Additionally, I find great satisfaction in designing and optimizing databases to ensure efficient data management.
+During my scholar apprenticeship at CBS, I am gaining hands-on experience in software development, web development, and database management. I enjoy the challenges that come with creating responsive web applications using modern tools and frameworks such as Angular and WebStorm. Additionally, I find great satisfaction in designing and optimizing databases to ensure efficient data management.
 
 I am also captivated by the fields of Artificial Intelligence (AI) and Machine Learning (ML). Exploring the vast possibilities of AI and ML, I am keen on leveraging data-driven insights to develop intelligent applications that make a positive impact.
 
 As an avid learner, I continuously strive to stay updated with the latest industry trends and advancements. I am a firm believer in the power of collaboration and teamwork, fostering an environment where innovative ideas can flourish.
 
-Outside of coding, you can find me exploring the outdoors, reading sci-fi novels, or engaging in thought-provoking discussions on tech-related topics.
+Outside of coding, you can find me exploring the outdoors, watching football matches, and playing video games.
 
 Let's connect and embark on a journey of creativity, problem-solving, and innovation together!
